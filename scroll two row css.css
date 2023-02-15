@@ -1,0 +1,38 @@
+.header-cat {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    height: 180px;
+    padding: 0px;
+}
+
+.header-cat > .col {
+    text-decoration: none;
+    color: rgba(0,0,0,.87);
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 90px;
+    max-width: 90px;
+    padding: 0;
+    height: 90px;
+}
+
+.header-cat > .col img {
+    max-height: 75px !important;
+    width: auto !important;
+    max-width: 100% !important;
+}
+
+.header-cat > .col > .col-inner {
+    padding-bottom: 0 !important;
+}
+.header-cat::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}

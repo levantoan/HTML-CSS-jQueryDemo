@@ -1,0 +1,12 @@
+@media (min-width: 850px){
+  .product-gallery {
+    position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 80px;
+    align-self: flex-start;
+  }
+}
